@@ -19,3 +19,5 @@ def contact(request):
 def checkout(request):
     return HttpResponse('<h1> this is shop checkout page...</h1>')
 
+# for code deploy on github us ecomorigin instead of origin
+
