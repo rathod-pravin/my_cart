@@ -5,7 +5,7 @@ def index(request):
     return render(request,'shop/index.html')
 
 def about(request):
-    return HttpResponse('<h1>this is shop about page</h1>')
+    return render(request,'shop/about.html')
 
 def ProdView(request):
     return HttpResponse('<h1> this is shop product view page...</h1>')
